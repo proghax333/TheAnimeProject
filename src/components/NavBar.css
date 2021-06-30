@@ -1,0 +1,26 @@
+
+.NavTitle {
+  cursor: pointer;
+  min-width: max-content;
+}
+
+.NavButton {
+  outline-style: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.NavItem {
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+
+  @apply text-indigo-100;
+  @apply hover:bg-gray-600;
+  @apply rounded-md;
+  @apply transition-all;
+  @apply duration-75;
+  @apply ease-out;
+  @apply w-full;
+  @apply md:w-auto;
+  @apply md:mx-0;
+}
