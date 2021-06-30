@@ -26,7 +26,6 @@ function InfoCard({name, img, id, ...props}) {
     >
       <div className="h-full m-2 overflow-hidden 
       flex flex-col 
-      rounded-md 
       transform transition duration-75
       hover:scale-105">
         <img

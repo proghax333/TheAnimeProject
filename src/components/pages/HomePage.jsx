@@ -5,7 +5,10 @@ function HomePage() {
   return (
     <div className="">
       <Section name="Trending">
-
+      </Section>
+      <Section name="Trending">
+      </Section>
+      <Section name="Trending">
       </Section>
     </div>
   )
