@@ -1,7 +1,6 @@
 
 .NavTitle {
   cursor: pointer;
-  min-width: max-content;
 }
 
 .NavButton {
@@ -12,7 +11,7 @@
 
 .NavItem {
   cursor: pointer;
-  padding: 1rem 1.25rem;
+  padding: 1rem 0.8rem;
 
   @apply text-indigo-100;
   @apply hover:bg-gray-600;

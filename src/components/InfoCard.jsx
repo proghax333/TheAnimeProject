@@ -1,9 +1,7 @@
 import React from 'react'
 
 const infoCardClass = `
-  overflow-hidden
   h-full
-  rounded-md
 `;
 
 const imageClass = `
@@ -13,9 +11,8 @@ const imageClass = `
 const titleClass = `
   text-indigo-100
   w-full
-  text-center
   p-2
-  text-sm
+  text-center text-sm
   bg-gray-800
 `;
 
@@ -24,10 +21,17 @@ function InfoCard({name, img, id, ...props}) {
     <div
       className={infoCardClass}
     >
-      <div className="h-full m-2 overflow-hidden 
-      flex flex-col 
-      transform transition duration-75
-      hover:scale-105">
+      <div className="
+        h-full
+        overflow-hidden
+        rounded-md
+        bg-pink-100
+        
+        flex flex-col 
+        justify-end
+        transform transition duration-75
+        hover:scale-105
+        shadow-lg">
         <img
           src={img}
           className={imageClass}
